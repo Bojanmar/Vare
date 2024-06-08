@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 
 
 # Streamlit app configuration
-st.set_page_config(layout="wide", page_title="Gravity Studio", page_icon="images/sample_image.png")
+st.set_page_config(layout="wide", page_title="Gravity Studio", page_icon="Streamlit/images/sample_image.png")
 
 # SQLAlchemy setup
 DATABASE_URL = "sqlite:///measurements.db"
@@ -71,7 +71,7 @@ st.markdown(
 
 # Sidebar for basic info
 with st.sidebar:
-    st.image("images/sample_image.png", use_column_width=True)
+    st.image("Streamlit/images/sample_image.png", use_column_width=True)
     st.write("___________")
 
 
