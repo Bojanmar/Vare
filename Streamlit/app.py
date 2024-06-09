@@ -76,7 +76,8 @@ with st.sidebar:
 
 
     st.markdown('<h1 class="centered-title">GRAVITY STUDIO</h1>', unsafe_allow_html=True)
-
+    st.write("___________")
+    st.write("For the best experience, please set your browser's zoom level to 75%.")
 # Navigation tabs
 selected = option_menu(
     menu_title=None,
