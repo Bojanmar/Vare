@@ -10,9 +10,6 @@ import seaborn as sns
 from streamlit_option_menu import option_menu
 
 
-# Streamlit app configuration
-st.set_page_config(layout="wide", page_title="Gravity Studio", page_icon="images/sample_image.png")
-
 # SQLAlchemy setup
 DATABASE_URL = "sqlite:///measurements.db"
 Base = declarative_base()
