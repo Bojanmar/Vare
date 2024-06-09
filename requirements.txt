@@ -1,7 +1,0 @@
-streamlit
-sqlalchemy
-pandas
-matplotlib
-seaborn
-streamlit-option-menu
-
